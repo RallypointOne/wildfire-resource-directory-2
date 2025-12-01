@@ -1,0 +1,72 @@
+site_name: Wildfire Modeling & Simulation Resource Directory
+site_url: https://wildfire-resources.rallypointone.com
+site_description: Comprehensive guide to wildfire behavior modeling and simulation by RallypointOne LLC
+site_author: RallypointOne LLC
+
+repo_url: https://github.com/RallypointOne/wildfire-resource-directory-2
+repo_name: RallypointOne/wildfire-2
+
+copyright: Copyright &copy; 2024 RallypointOne LLC - NSF CO-WY ASCEND Engine Partner
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+    
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  font:
+    text: Inter
+    code: Fira Code
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - tables
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/RallypointOne
+      name: RallypointOne on GitHub
