@@ -6,14 +6,14 @@ site_author: RallypointOne LLC
 repo_url: https://github.com/RallypointOne/wildfire-resource-directory-2
 repo_name: RallypointOne/wildfire-2
 
-copyright: Copyright &copy; 2024 RallypointOne LLC - NSF CO-WY ASCEND Engine Partner
+copyright: Copyright © 2025 RallypointOne LLC - NSF CO-WY ASCEND Engine Performer
 
 theme:
   name: material
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.tabs
+    # no navigation.tabs → Parts appear only on the left
     - navigation.sections
     - navigation.expand
     - navigation.indexes
@@ -22,7 +22,6 @@ theme:
     - search.highlight
     - content.code.copy
     - toc.follow
-    
   palette:
     - scheme: default
       primary: deep orange
@@ -36,7 +35,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  
   font:
     text: Inter
     code: Fira Code
@@ -70,3 +68,34 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/RallypointOne
       name: RallypointOne on GitHub
+
+nav:
+  - Home: index.md
+
+  # For each Part, we now link to a single index page.
+  # Inside that page, define headings ## A1, ## A2, etc.
+  # Those headings will appear in the right-hand nav (TOC).
+
+  - "A – Orientation and Navigation": part-01-orientation/index.md
+
+  - "B – Fire Behavior Fundamentals and Phenomena": part-02-fire-behavior-fundamentals/index.md
+  
+  - "C – Model Families and Methods": part-03-model-families-methods/index.md
+     
+  - "D – Data, Inputs, and Feature Optimization": part-04-data-inputs-feature-optimization/index.md 
+
+  - "E – Validation, Verification, and Uncertainty": part-05-validation-verification-uncertainty/index.md
+
+  - "F – Public Agencies and Land Management": part-06-public-agencies-land-management/index.md
+
+  - "G – Utilities and Critical Infrastructure": part-07-utilities-critical-infrastructure/index.md
+
+  - "H – Insurance and Reinsurance": part-08-insurance-reinsurance/index.md
+
+  - "I – Other Commercial and Industrial Sectors": part-09-other-commercial-industrial-sectors/index.md
+
+  - "J – Operational Workflows and Digital Twins": part-10-operational-workflows-digital-twins/index.md
+
+  - "K – Governance, Standards, and Ethics": part-11-governance-standards-ethics/index.md
+
+  - "L – Case Studies, Exemplars, and Resources": part-12-case-studies-resources/index.md

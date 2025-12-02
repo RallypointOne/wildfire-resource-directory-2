@@ -1,18 +1,16 @@
 # Wildfire Modeling & Simulation Resource Directory
-
-<div style="text-align: center; padding: 2rem 0;">
+<div style="text-align: center; padding: rem 0;">
     <h2>Comprehensive Guide to Wildfire Behavior Modeling</h2>
     <p><strong>RallypointOne LLC</strong> | NSF CO-WY ASCEND Engine Partner</p>
 </div>
-
 !!! success "Mission"
     Enable faster-than-realtime wildfire predictions through comprehensive documentation of modeling capabilities, data requirements, and operational workflows for researchers, practitioners, and decision-makers.
 
-## 🚀 Quick Start by Role
+## 🚀 **Quick Start by Role**
 
 === "Fire Managers"
-    
     **Focus Areas:**
+    
     - [Landscape fire behavior models](part-03-models/landscape/)
     - [Burn probability analysis](part-06-agencies/planning/)
     - [Fuels treatment planning](part-04-data/fuels/)
@@ -23,6 +21,7 @@
 === "Emergency Managers"
     
     **Focus Areas:**
+    
     - [Real-time forecasting](part-10-workflows/pipelines/)
     - [Evacuation planning](part-06-agencies/operations/)
     - [Coupled atmosphere models](part-03-models/coupled/)
@@ -33,6 +32,7 @@
 === "Utilities"
     
     **Focus Areas:**
+    
     - [PSPS planning](part-07-utilities/electric/)
     - [Infrastructure protection](part-10-workflows/digital-twins/)
     - [Ignition risk modeling](part-07-utilities/electric/#ignition-risk)
@@ -43,6 +43,7 @@
 === "Insurance"
     
     **Focus Areas:**
+    
     - [Catastrophe modeling](part-08-insurance/catastrophe/)
     - [Property-level scoring](part-08-insurance/property/)
     - [Portfolio management](part-08-insurance/portfolio/)
@@ -53,6 +54,7 @@
 === "Researchers"
     
     **Focus Areas:**
+    
     - [Physics-based models](part-03-models/physics-based/)
     - [Machine learning approaches](part-03-models/ml-hybrid/)
     - [Verification & validation](part-05-vvuq/frameworks/)
@@ -60,39 +62,39 @@
     
     **Key Models:** FIRETEC, WRF-Fire, FDS/WFDS
 
-## 📚 Directory Overview
+## 📚 **Directory Overview**
 
 ### Core Knowledge
 
-!!! info "Fire Behavior Fundamentals"
+!!! note "Fire Behavior Fundamentals"
     **[Part II: Fundamentals](part-02-fundamentals/)** - Understanding the fire behavior triangle, wildfire scales from WUI to regional, and societal impacts.
 
-!!! abstract "Model Families"
+!!! note "Model Families"
     **[Part III: Models](part-03-models/)** - Comprehensive coverage of empirical (Rothermel), landscape spread, coupled atmosphere-fire, physics-based CFD, and ML/hybrid approaches.
 
-!!! example "Data Requirements"
+!!! note "Data Requirements"
     **[Part IV: Data & Inputs](part-04-data/)** - Critical data hierarchies, fuels mapping, weather inputs, terrain data, validation datasets, and real-time ingestion systems.
 
 ### Operational Applications
 
-!!! warning "Public Agencies"
+!!! example "Public Agencies"
     **[Part VI: Land Management](part-06-agencies/)** - Planning workflows, real-time operations, incident support, and post-fire recovery planning.
 
-!!! danger "Critical Infrastructure"
+!!! example "Critical Infrastructure"
     **[Part VII: Utilities](part-07-utilities/)** - Electric grid protection, water system resilience, PSPS decision-making, and cross-utility coordination.
 
-!!! tip "Risk & Insurance"
+!!! example "Risk & Insurance"
     **[Part VIII: Insurance](part-08-insurance/)** - Catastrophe modeling, underwriting, portfolio management, and mitigation strategies.
 
 ### Advanced Topics
 
-!!! note "Digital Twins & AI"
+!!! abstract "Digital Twins & AI"
     **[Part X: Workflows](part-10-workflows/)** - Operational pipelines, neural surrogates, digital twin architectures, and human-AI integration.
 
-!!! important "Standards & Governance"
+!!! abstract "Standards & Governance"
     **[Part XI: Governance](part-11-governance/)** - Codes, standards, model governance, responsible AI, and equity considerations.
 
-!!! success "Case Studies"
+!!! abstract "Case Studies"
     **[Part XII: Real-World Applications](part-12-case-studies/)** - CO-WY regional studies, Marshall Fire analysis, utility programs, and lessons learned.
 
 ## 🔥 Featured Resources

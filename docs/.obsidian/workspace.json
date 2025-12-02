@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "part-02-fundamentals/fire-behavior/Wildfire Fundamentals and the Fire Behavior Triangle.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -187,10 +187,10 @@
   },
   "active": "dd5c6a66661f3be5",
   "lastOpenFiles": [
-    "part-02-fundamentals/wildfire-scales/index.md",
-    "part-02-fundamentals/fire-behavior/Wildfire Fundamentals and the Fire Behavior Triangle.md",
     "part-02-fundamentals/fire-behavior/index.md",
+    "part-02-fundamentals/fire-behavior/Wildfire Fundamentals and the Fire Behavior Triangle.md",
     "index.md",
+    "part-02-fundamentals/wildfire-scales/index.md",
     "part-01-orientation/welcome/index.md",
     "part-01-orientation/quick-reference/index.md",
     "part-01-orientation/welcome/test-callouts.md",
