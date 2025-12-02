@@ -1,1 +1,6 @@
-{}
+{
+  "enabledCssSnippets": [
+    "material-callouts",
+    "custom-admonitions.da86a8"
+  ]
+}

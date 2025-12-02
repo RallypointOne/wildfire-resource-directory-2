@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "part-03-models/empirical/rothermel.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rothermel"
+              "title": "index"
             }
           }
         ]
@@ -180,14 +180,19 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "dd5c6a66661f3be5",
   "lastOpenFiles": [
-    "part-02-fundamentals/fire-behavior/test-page.md",
-    "part-03-models/empirical/rothermel.md",
+    "snippets/material-callouts.css",
+    "snippets",
     "part-01-orientation/welcome/index.md",
+    "index.md",
+    "part-03-models/empirical/rothermel.md",
+    "part-02-fundamentals/fire-behavior/test-page.md",
     "part-01-orientation/glossary/index.md"
   ]
 }
