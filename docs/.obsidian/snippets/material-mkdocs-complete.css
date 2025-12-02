@@ -1,0 +1,547 @@
+/* ============================================
+   COMPLETE MATERIAL FOR MKDOCS THEME FOR OBSIDIAN
+   ============================================ */
+
+/* Import Inter font to match Material */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* Root Variables - Match Material for MkDocs */
+:root {
+  --font-text: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-monospace: 'JetBrains Mono', 'Fira Code', monospace;
+  
+  /* Material for MkDocs Colors */
+  --md-primary: #ff5722;
+  --md-primary-dark: #c41c00;
+  --md-accent: #ff9800;
+  --md-accent-light: #ffc947;
+  
+  /* Override Obsidian colors */
+  --interactive-accent: var(--md-primary);
+  --interactive-accent-hover: var(--md-primary-dark);
+  --text-accent: var(--md-primary);
+  --text-accent-hover: var(--md-primary-dark);
+  
+  /* Headers */
+  --h1-color: var(--text-normal);
+  --h2-color: var(--text-normal);
+  --h3-color: var(--text-normal);
+  --h4-color: var(--text-normal);
+  --h5-color: var(--text-normal);
+  --h6-color: var(--text-normal);
+  
+  /* Font sizes to match Material */
+  --font-smallest: 0.75rem;
+  --font-smaller: 0.875rem;
+  --font-small: 0.9375rem;
+  --font-normal: 1rem;
+  --font-medium: 1.125rem;
+  --font-large: 1.25rem;
+  --font-larger: 1.5rem;
+  --font-largest: 2rem;
+  
+  /* Line height */
+  --line-height-normal: 1.6;
+  --line-height-tight: 1.3;
+}
+
+/* Body and Editor */
+.markdown-source-view,
+.markdown-preview-view {
+  font-family: var(--font-text);
+  font-size: var(--font-normal);
+  line-height: var(--line-height-normal);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.theme-dark .markdown-source-view,
+.theme-dark .markdown-preview-view {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+/* Headers - Match Material Typography */
+.markdown-preview-view h1,
+.cm-header-1 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.3;
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.markdown-preview-view h2,
+.cm-header-2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 2rem 0 1rem;
+}
+
+.markdown-preview-view h3,
+.cm-header-3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 1.5rem 0 0.75rem;
+}
+
+.markdown-preview-view h4,
+.cm-header-4 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 1rem 0 0.5rem;
+}
+
+/* Links - Material style */
+.markdown-preview-view a,
+.cm-link {
+  color: var(--md-primary);
+  text-decoration: none;
+}
+
+.markdown-preview-view a:hover,
+.cm-link:hover {
+  color: var(--md-primary-dark);
+  text-decoration: underline;
+}
+
+/* Code blocks - Match Material */
+.markdown-preview-view pre,
+.cm-s-obsidian .HyperMD-codeblock {
+  background-color: #f5f5f5;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  font-family: var(--font-monospace);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  overflow-x: auto;
+}
+
+.theme-dark .markdown-preview-view pre,
+.theme-dark .cm-s-obsidian .HyperMD-codeblock {
+  background-color: #1e1e1e;
+}
+
+/* Inline code */
+.markdown-preview-view code,
+.cm-inline-code {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 0.15rem 0.3rem;
+  border-radius: 0.2rem;
+  font-family: var(--font-monospace);
+  font-size: 0.875em;
+  color: #c7254e;
+}
+
+.theme-dark .markdown-preview-view code,
+.theme-dark .cm-inline-code {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ff79c6;
+}
+
+/* Tables - Material style */
+.markdown-preview-view table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.markdown-preview-view th {
+  background-color: #f5f5f5;
+  font-weight: 500;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.theme-dark .markdown-preview-view th {
+  background-color: #2d2d2d;
+  border-bottom-color: #424242;
+}
+
+.markdown-preview-view td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.theme-dark .markdown-preview-view td {
+  border-bottom-color: #424242;
+}
+
+/* Blockquotes */
+.markdown-preview-view blockquote,
+.cm-quote {
+  border-left: 0.25rem solid #e0e0e0;
+  padding-left: 1rem;
+  color: rgba(0, 0, 0, 0.54);
+  font-style: normal;
+  margin: 1rem 0;
+}
+
+.theme-dark .markdown-preview-view blockquote,
+.theme-dark .cm-quote {
+  border-left-color: #424242;
+  color: rgba(255, 255, 255, 0.54);
+}
+
+/* Lists */
+.markdown-preview-view ul,
+.markdown-preview-view ol {
+  padding-left: 2rem;
+  margin: 1rem 0;
+}
+
+.markdown-preview-view li {
+  margin: 0.25rem 0;
+}
+
+/* Task lists - Material checkboxes */
+.markdown-preview-view .task-list-item-checkbox {
+  appearance: none;
+  width: 1.125rem;
+  height: 1.125rem;
+  border: 2px solid #757575;
+  border-radius: 0.125rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+}
+
+.markdown-preview-view .task-list-item-checkbox:checked {
+  background-color: var(--md-primary);
+  border-color: var(--md-primary);
+}
+
+.markdown-preview-view .task-list-item-checkbox:checked::after {
+  content: '✓';
+  color: white;
+  position: absolute;
+  left: 2px;
+  top: -2px;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+/* Horizontal rules */
+.markdown-preview-view hr {
+  border: none;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 2rem 0;
+}
+
+.theme-dark .markdown-preview-view hr {
+  background-color: #424242;
+}
+
+/* Material Admonitions/Callouts */
+.callout {
+  border-radius: 0.2rem;
+  padding: 0;
+  margin: 1.5rem 0;
+  border: none;
+  border-left: 0.25rem solid;
+  box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,.05), 0 0 0.05rem rgba(0,0,0,.1);
+  overflow: hidden;
+}
+
+.callout-title {
+  padding: 0.75rem 1rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.callout-content {
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+}
+
+/* Callout Colors - Match Material exactly */
+.callout[data-callout="note"] {
+  border-left-color: #448aff;
+  background-color: #e3f2fd;
+}
+.callout[data-callout="note"] .callout-title {
+  background-color: #bbdefb;
+  color: #1976d2;
+}
+
+.callout[data-callout="abstract"],
+.callout[data-callout="summary"],
+.callout[data-callout="tldr"] {
+  border-left-color: #00b0ff;
+  background-color: #e1f5fe;
+}
+.callout[data-callout="abstract"] .callout-title,
+.callout[data-callout="summary"] .callout-title,
+.callout[data-callout="tldr"] .callout-title {
+  background-color: #b3e5fc;
+  color: #0277bd;
+}
+
+.callout[data-callout="info"],
+.callout[data-callout="todo"] {
+  border-left-color: #00b8d4;
+  background-color: #e0f7fa;
+}
+.callout[data-callout="info"] .callout-title,
+.callout[data-callout="todo"] .callout-title {
+  background-color: #b2ebf2;
+  color: #00838f;
+}
+
+.callout[data-callout="tip"],
+.callout[data-callout="hint"],
+.callout[data-callout="important"] {
+  border-left-color: #00c853;
+  background-color: #e8f5e9;
+}
+.callout[data-callout="tip"] .callout-title,
+.callout[data-callout="hint"] .callout-title,
+.callout[data-callout="important"] .callout-title {
+  background-color: #c8e6c9;
+  color: #2e7d32;
+}
+
+.callout[data-callout="success"],
+.callout[data-callout="check"],
+.callout[data-callout="done"] {
+  border-left-color: #00e676;
+  background-color: #e8f5e9;
+}
+.callout[data-callout="success"] .callout-title,
+.callout[data-callout="check"] .callout-title,
+.callout[data-callout="done"] .callout-title {
+  background-color: #c8e6c9;
+  color: #1b5e20;
+}
+
+.callout[data-callout="question"],
+.callout[data-callout="help"],
+.callout[data-callout="faq"] {
+  border-left-color: #64dd17;
+  background-color: #f1f8e9;
+}
+.callout[data-callout="question"] .callout-title,
+.callout[data-callout="help"] .callout-title,
+.callout[data-callout="faq"] .callout-title {
+  background-color: #dcedc8;
+  color: #33691e;
+}
+
+.callout[data-callout="warning"],
+.callout[data-callout="caution"],
+.callout[data-callout="attention"] {
+  border-left-color: #ff9100;
+  background-color: #fff3e0;
+}
+.callout[data-callout="warning"] .callout-title,
+.callout[data-callout="caution"] .callout-title,
+.callout[data-callout="attention"] .callout-title {
+  background-color: #ffe0b2;
+  color: #e65100;
+}
+
+.callout[data-callout="failure"],
+.callout[data-callout="fail"],
+.callout[data-callout="missing"] {
+  border-left-color: #ff5252;
+  background-color: #ffebee;
+}
+.callout[data-callout="failure"] .callout-title,
+.callout[data-callout="fail"] .callout-title,
+.callout[data-callout="missing"] .callout-title {
+  background-color: #ffcdd2;
+  color: #c62828;
+}
+
+.callout[data-callout="danger"],
+.callout[data-callout="error"] {
+  border-left-color: #ff1744;
+  background-color: #ffebee;
+}
+.callout[data-callout="danger"] .callout-title,
+.callout[data-callout="error"] .callout-title {
+  background-color: #ffcdd2;
+  color: #b71c1c;
+}
+
+.callout[data-callout="bug"] {
+  border-left-color: #f50057;
+  background-color: #fce4ec;
+}
+.callout[data-callout="bug"] .callout-title {
+  background-color: #f8bbd0;
+  color: #880e4f;
+}
+
+.callout[data-callout="example"] {
+  border-left-color: #7c4dff;
+  background-color: #f3e5f5;
+}
+.callout[data-callout="example"] .callout-title {
+  background-color: #e1bee7;
+  color: #4a148c;
+}
+
+.callout[data-callout="quote"],
+.callout[data-callout="cite"] {
+  border-left-color: #9e9e9e;
+  background-color: #fafafa;
+}
+.callout[data-callout="quote"] .callout-title,
+.callout[data-callout="cite"] .callout-title {
+  background-color: #eeeeee;
+  color: #424242;
+}
+
+/* Tabs (if using a tabs plugin) */
+.tabs-container {
+  margin: 1rem 0;
+}
+
+.tab-nav {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 1rem;
+}
+
+.tab-nav-item {
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: 500;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.tab-nav-item:hover {
+  color: var(--md-primary);
+  background-color: rgba(255, 87, 34, 0.05);
+}
+
+.tab-nav-item.active {
+  color: var(--md-primary);
+  border-bottom-color: var(--md-primary);
+}
+
+/* Buttons (styled links) */
+.markdown-preview-view a[href$="#button"],
+.markdown-preview-view a[href$="#btn"] {
+  display: inline-block;
+  padding: 0.625rem 1rem;
+  background-color: var(--md-primary);
+  color: white !important;
+  border-radius: 0.2rem;
+  text-decoration: none !important;
+  font-weight: 500;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.markdown-preview-view a[href$="#button"]:hover,
+.markdown-preview-view a[href$="#btn"]:hover {
+  background-color: var(--md-primary-dark);
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+}
+
+/* File explorer - Material style */
+.nav-folder-title {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.nav-file-title {
+  font-size: 0.875rem;
+}
+
+/* Search results */
+.search-result-container {
+  font-size: 0.875rem;
+}
+
+.search-result-file-title {
+  font-weight: 500;
+  color: var(--md-primary);
+}
+
+/* Tags */
+.tag {
+  background-color: var(--md-accent);
+  color: white;
+  padding: 0.125rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.theme-dark ::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.theme-dark ::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Editor specific */
+.CodeMirror {
+  font-family: var(--font-text);
+  line-height: var(--line-height-normal);
+}
+
+.cm-s-obsidian .cm-header {
+  color: var(--text-normal);
+}
+
+/* Make edit and preview look the same */
+.markdown-source-view.is-live-preview .HyperMD-header {
+  color: var(--text-normal);
+}
+
+/* Live preview improvements */
+.markdown-source-view.is-live-preview {
+  padding: 2rem;
+}
+
+/* Dark mode adjustments */
+.theme-dark .callout {
+  box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,.2), 0 0 0.05rem rgba(0,0,0,.3);
+}
+
+.theme-dark .callout-title {
+  filter: brightness(0.9);
+}
+
+.theme-dark .callout-content {
+  filter: brightness(0.95);
+}

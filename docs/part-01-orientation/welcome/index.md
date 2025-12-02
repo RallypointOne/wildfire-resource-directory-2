@@ -1,8 +1,7 @@
 # Welcome and Purpose
 
-## Mission Statement
-
-The Wildfire Modeling and Simulation Resource Directory serves as a comprehensive, authoritative guide to understanding wildfire behavior modeling and simulation.
+!!! success "Mission Statement"
+	The Wildfire Modeling and Simulation Resource Directory serves as a comprehensive, authoritative guide to understanding wildfire behavior modeling and simulation.
 
 This directory is developed by **RallypointOne LLC** as part of the NSF CO-WY ASCEND Engine initiative.
 

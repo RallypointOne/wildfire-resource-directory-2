@@ -3,5 +3,8 @@
   "templater-obsidian",
   "obsidian-git",
   "tag-wrangler",
-  "obsidian-admonition"
+  "obsidian-style-settings",
+  "obsidian-minimal-settings",
+  "markdown-attributes",
+  "obsidian-pretty-bibtex"
 ]

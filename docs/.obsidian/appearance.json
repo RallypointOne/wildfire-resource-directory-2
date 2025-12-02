@@ -1,6 +1,8 @@
 {
   "enabledCssSnippets": [
     "material-callouts",
-    "custom-admonitions.da86a8"
-  ]
+    "custom-admonitions.da86a8",
+    "material-mkdocs-complete"
+  ],
+  "cssTheme": "Minimal"
 }

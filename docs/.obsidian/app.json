@@ -1,5 +1,6 @@
 {
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "defaultViewMode": "preview"
 }
